@@ -1,0 +1,66 @@
+container{
+    background-color: #e3f9ff;
+     margin: 0; 
+     display: flex; 
+     justify-content: center; 
+     height: 100vh;
+      width:100%;
+    
+    }
+    .calculator {
+    background-color:#9ff80f; 
+    width:450px; 
+    height: 320px;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    padding:25px;
+    }
+    .buttons {
+    display: grid;
+     grid-template-columns: repeat(4, 1fr); 
+     gap:8px; 
+     margin:20px;
+    }
+    #display {
+    width: 100%; 
+    margin-bottom: 10px;
+    padding: 5px; 
+    font-size: 25px;
+    text-align: right;
+    background-color:white;
+    color:black;
+    }
+.button {
+width: 100%;
+padding: 10px;
+font-size: 18px; 
+font-weight: bold;
+border-radius: 6px;
+background-color: midnight blue;
+border: none; 
+color: #fff;
+cursor: pointer;
+margin:10px;
+}
+.button:hover {
+background-color:brown;
+}
+.ac {
+color: blue;
+height: 40px;
+}
+.del {
+color: green;
+}
+.equal{
+    color: rgb(255,20,20);
+}
+body{
+    background-color: green;
+    background-image: url("https://thumbs.gfycat.com/EarlyAntiqueIbizanhound-max-1mb.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 180px;
+    margin-left: 500px;
+}
